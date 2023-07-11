@@ -22,8 +22,10 @@ Once on the page, you will find the following elements:
 
 ## Contribution
 
-Contributions to this project are welcome. If you have any suggestions or improvements, feel free to fork the repository and submit a pull request.
+I am open to contributions and suggestions to improve this site:
+
+1. You can fork the site.
 
 ## Acknowledgments
 
-Thank you for using the Time-Converter tool. We hope it helps you with your time conversion needs. If you have any feedback or questions, please don't hesitate to reach out.
+Feel free to explore the site and share your feedback. I hope you enjoy your visit!
