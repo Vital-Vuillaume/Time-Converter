@@ -16,6 +16,20 @@ body {
   margin: 0;
   color: white;
   overflow: hidden;
+  opacity: 0;
+  transform: translateY(-200px);
+  animation: apparition 2s ease-out forwards;
+
+}
+
+@keyframes apparition {
+
+  100% {
+
+    opacity: 1;
+    transform: none;
+
+  }
 
 }
 
