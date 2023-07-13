@@ -1,4 +1,10 @@
-// Constantes
+//------pour que le site soit securise------\\
+
+if (window.location.protocol != "https:") {
+  window.location.protocol="https:";
+}
+
+//------Constantes------\\
 
 const hoursPerDay = 24;
 const minutesPerHour = 60;
@@ -10,7 +16,7 @@ const hours = document.querySelector('#hours');
 const minutes = document.querySelector('#minutes');
 const seconds = document.querySelector('#seconds');
 
-// Fonction de calcul
+//------Fonction de calcul------\\
 
 function performCalculation() {
   let days = dayInput.value;
@@ -23,11 +29,11 @@ function performCalculation() {
   seconds.innerText = `${calcSeconds.toFixed()} seconds`;
 }
 
-// Événement clic sur le bouton de calcul
+//------Événement clic sur le bouton de calcul------\\
 
 calculateButton.addEventListener('click', performCalculation);
 
-// Événement "keydown" sur le champ de texte
+//------Événement "keydown" sur le champ de texte------\\
 
 dayInput.addEventListener('keydown', function(event) {
   if (event.key === 'Enter') {
@@ -36,7 +42,7 @@ dayInput.addEventListener('keydown', function(event) {
   }
 });
 
-//Nombre de caractère dans l'input
+//------Nombre de caractère dans l'input------\\
 
 function limitNumberLength(input, maxLength) {
   if (input.value.length > maxLength) {
