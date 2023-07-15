@@ -19,7 +19,7 @@
     <main>
       <div class="container">
         <div class="form-control">
-          <input id="day-input" class="input input-alt" placeholder="Write a number of days..." type="number" oninput="limitNumberLength(this, 9)">
+          <input id="day-input" class="input input-alt" placeholder="Write a number of days..." type="number" pattern="[0-9]*" oninput="limitNumberLength(this, 9)">
           <span class="input-border input-border-alt"></span>
         </div>          
 
@@ -36,9 +36,7 @@
     </main>
 
     <footer>
-      <div>
         <p class="fake-copyright">ⓒ 2023 - Vital production</p>
-      </div>
     </footer>
   </body>
 </html>
