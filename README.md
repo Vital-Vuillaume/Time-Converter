@@ -12,7 +12,7 @@ This project was developed using the following technologies:
 
 ## How to Use the Tool
 
-To access the tool, you can follow this link: [Time-Converter](https://rmbi.ch/vital/time-converter)
+To access the tool, you can follow this link: [Time-Converter](https://rmbi.ch/vital/time-converter/)
 
 Once on the page, you will find the following elements:
 
