@@ -1,20 +1,22 @@
-//------pour que le site soit securise------\\
+//------Pour que le site soit securise------\\
 
-if (window.location.protocol != "https:") {
+/*if (window.location.protocol != "https:") {
   window.location.protocol="https:";
-}
+}*/
 
-//------Constantes------\\
-
-const hoursPerDay = 24;
-const minutesPerHour = 60;
-const secondsPerMinute = 60;
+//------Element html------\\
 
 const dayInput = document.querySelector('#day-input');
 const calculateButton = document.querySelector('#calculate-button');
 const hours = document.querySelector('#hours');
 const minutes = document.querySelector('#minutes');
 const seconds = document.querySelector('#seconds');
+
+//------Constantes------\\
+
+const hoursPerDay = 24;
+const minutesPerHour = 60;
+const secondsPerMinute = 60;
 
 //------Fonction de calcul------\\
 
@@ -29,11 +31,11 @@ function performCalculation() {
   seconds.innerText = `${calcSeconds.toFixed()} seconds`;
 }
 
-//------Événement clic sur le bouton de calcul------\\
+//------Evenement clic sur le bouton de calcul------\\
 
 calculateButton.addEventListener('click', performCalculation);
 
-//------Événement "keydown" sur le champ de texte------\\
+//------Evenement touche entrer dnas l'input------\\
 
 dayInput.addEventListener('keydown', function(event) {
   if (event.key === 'Enter') {
@@ -42,7 +44,7 @@ dayInput.addEventListener('keydown', function(event) {
   }
 });
 
-//------Nombre de caractère dans l'input------\\
+//------Nombre de caractere dans l'input------\\
 
 function limitNumberLength(input, maxLength) {
   if (input.value.length > maxLength) {
