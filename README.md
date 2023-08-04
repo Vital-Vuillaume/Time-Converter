@@ -4,11 +4,11 @@ The Time-Converter project is an online time conversion tool. It allows you to c
 
 ## Technologies Used
 
-This project was developed using the following technologies:
+## Technologies Used
 
-- HTML5: Used for the structure and content of the page.
-- CSS3: Used for the layout and design of the interface.
-- JavaScript: Used to add interactive features.
+**This site was developed using the following technologies:**
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://github.com/Vital-Vuillaume)
 
 ## How to Use the Tool
 
