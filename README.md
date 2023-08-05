@@ -20,10 +20,10 @@ Once on the page, you will find the following elements:
 
 ## Contribution
 
-I am open to contributions and suggestions to improve this site:
+- ### I am open to contributions and suggestions to improve this site:
 
-1. You can fork the site.
+  **1. You can fork the site.**
 
 ## Acknowledgments
 
-Feel free to explore the site and share your feedback. I hope you enjoy your visit!
+**Feel free to explore the site and share your feedback. I hope you enjoy your visit!**
