@@ -68,7 +68,6 @@ body {
 
   -webkit-appearance: none;
   margin: 0;
-  display: none
 
 }
 
@@ -82,6 +81,7 @@ body {
   padding-block: 0.7em;
   border: none;
   border-bottom: var(--border-height) solid var(--border-before-color);
+  appearance: textfield;
 
 }
 
